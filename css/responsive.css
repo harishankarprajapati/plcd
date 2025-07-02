@@ -1,0 +1,262 @@
+/* -------1920--------- */
+
+@media only screen and (min-width:1920px) {
+
+  .container-fluid {
+    width: 1903px;
+    margin: auto;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width:1024px) {}
+
+
+
+
+/*  */
+@media only screen and (max-width:999px) {
+  .offcanvas-header {
+    background: #0A3D2C;
+    font-size: 23px;
+    color: #fff;
+  }
+
+  .navbar-expand-xl .navbar-nav {
+    flex-direction: column;
+    padding-left: 12px;
+  }
+
+  .headermenusec {
+    font-size: 26px;
+    margin-bottom: 13px;
+  }
+
+  .seccaetbg i {
+    font-size: 45px;
+  }
+
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .secmobilecont {
+    display: block;
+  }
+
+  .socal-links {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+  .sechertextbg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-right: 0;
+  }
+
+  .secrrvvt {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .secboxchossbg {
+    flex-wrap: wrap;
+  }
+
+  .headerhomebg {
+    padding: 0;
+  }
+
+  button.navbar-toggler {
+    background: #348002;
+    font-size: 40px;
+    margin-top: 26px;
+  }
+
+  .navbar-brand {
+    float: left;
+    height: auto;
+    padding: 0;
+  }
+
+  .container-fluid.py-0.sec-menu-bgg {
+    padding: 0;
+  }
+
+  .container-fluid.secwhitpad.align-items-start {
+    padding: 0;
+  }
+
+  .logosec h2 {
+    font-size: 92px;
+    text-align: start;
+  }
+
+  .logosec p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .secherobgg {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+
+  .sechertextbg h1 {
+    font-size: 33px;
+  }
+
+  .sechertextbg p {
+    font-size: 14px;
+  }
+
+  .counter-card {
+    width: 50%;
+    margin: auto;
+  }
+
+  .seclandtext {
+    text-align: center;
+  }
+
+  .seclandtexth {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 13px;
+  }
+
+  .secfortext {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .secfortext2 {
+    text-align: center;
+  }
+
+  .secbhland {
+    padding-bottom: 30px;
+  }
+
+  .service-title {
+    font-size: 30px;
+  }
+
+  .service-content p {
+    font-size: 18px;
+  }
+
+  .secabcatbg {
+    padding: 30px 0px;
+  }
+
+  .secaboutbg {
+    background-color: #fff;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .secexprbg h3 {
+    font-size: 75px;
+  }
+
+  .secexprbg p {
+    font-family: 'Roboto';
+    font-size: 25px;
+  }
+
+  .sececpbtn a {
+    background-color: #0A3D2C;
+    padding: 17px 20px;
+    font-size: 30px;
+  }
+  .secprojectbg {
+    padding: 30px 0px 30px 0px;
+}
+.secherd h3 {
+    font-size: 33px;
+}
+.secwhych img {
+    width: 62%;
+}
+.secwhych {
+    border: 1px solid #0A3D2C;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 18px;
+    padding: 5px;
+}
+.secwhych p {
+    font-size: 17px;
+}
+.secimgee {
+    text-align: center;
+}
+.secgrandtext {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.secpoimg {
+    display: none;
+}
+.secservqbg {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.secser1 {
+    width: 30%;
+}
+.secpoimg2 {
+    display: none;
+ }
+ .secrevbg {
+    width: 100%;
+ }
+ .secmmdd{
+  display: none;
+ }
+ .secpoimg3 img {
+    width: 100%;
+}
+.secourtext {
+    font-size: 50px;
+}
+.secclinlogo {
+    width: 50%;
+}
+.secwwmd{
+  width: 33%;
+}
+.secmrdef{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.secpoll {
+    text-align: center;
+}
+.secopy {
+    text-align: center;
+}
+.secfhead {
+    padding-top: 40px;
+}
+
+}
+
+
+@media only screen and (max-width:380px) {}
+
+
+@media only screen and (max-width:320px) {}

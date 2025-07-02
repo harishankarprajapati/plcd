@@ -1,0 +1,133 @@
+<div class="container-fluid py-0 sec-menu-bgg">
+  <div class="sec-space-left-right-nav">
+    <nav class="navbar  navbar-expand-xl navbar-dark">
+      <div class="container-fluid secwhitpad  align-items-start">
+        <a href="index.html" class="navbar-brand logosec">
+          <h2>PLCD</h2>
+          <p>Paradise Landscape <br> Consultants & Developers</p>
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end sec-togle-bg  " id="navbarOffcanvas" tabindex="-1"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav justify-content-center  flex-grow-1 pe-3">
+              <ul class="navbar-nav   mb-2 mb-lg-0  ">
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="#">Our Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="#">Career</a>
+                </li>
+                 <li class="nav-item secmobilecont">
+                  <a class="nav-link px-4 headermenusec" href="#">Contact us</a>
+                </li>
+
+              </ul>
+
+            </div>
+            <!-- cart -->
+            <div class="seccaetbg">
+              <div class="secseach">
+              <!-- Trigger Button -->
+              <button class="btn secsectex" data-toggle="modal" data-target="#searchModal">
+                <i class="bi bi-search"></i>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <input type="text" class="form-control" id="searchInput" placeholder="Search...">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+              <p><a href="#"><i class="bi bi-person"></i></a></p>
+                <p class="seccartbg"><a href="#"><i class="bi bi-cart"></i></a></p>
+            </div>
+
+            <!-- contact -->
+            <div class="socal-links">
+              <p class="nav-item m-0">
+                <a class="nav-link px-4 py-2 headermenusec2btn secheaderbtn " href="#">Contact us</a>
+              </p>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+
+  </div>
+</div>
+
+<!-- wharshapp -->
+<div class="floating_btn">
+  <a target="_blank" href="https://wa.me/+91 1234567890">
+    <div class="contact_icon">
+      <i class="fa-brands fa-whatsapp "></i>
+    </div>
+  </a>
+  <p class="text_icon">Talk to us?</p>
+</div>
+
+
+<!-- Back to top button -->
+<a id="button"></a>
+
+
+<script>
+
+  var btn = $('#button');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+
+
+</script>
