@@ -39,7 +39,13 @@
     font-size: 25px;
   }
   .seccartbg {
-    padding-right: 0px;
+    padding-right: 5px;
+}
+.seccaetbg {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 
