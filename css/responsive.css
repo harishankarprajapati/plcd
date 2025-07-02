@@ -38,6 +38,10 @@
   .seccaetbg i {
     font-size: 25px;
   }
+  .seccartbg {
+    padding-right: 0px;
+}
+
 
   .offcanvas-body {
     display: flex;
